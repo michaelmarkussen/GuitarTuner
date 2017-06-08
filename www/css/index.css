@@ -1,0 +1,278 @@
+* {
+    box-sizing: border-box;
+    /*border: 0.5px solid white;*/
+    
+}
+
+body {
+	font-family: font-family: 'Oswald', sans-serif;
+	box-sizing: border-box;
+	background: #262626;
+}
+
+
+/*******************************
+*** CHROMATIC TUNER
+********************************/
+
+
+.playable {
+	position: fixed;
+	display: block;
+	top: 5%;
+	left: 5%;
+}
+
+.playable h1 {
+	position: absolute;
+	width: 250px;
+	top: -38px;
+    left: 8px;
+	color: #E5DFC5;
+    font-size: 1.2em;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+
+.logo {
+	position: fixed;
+	top: 12px;
+	left: 480px;
+}
+
+.bypass{
+    position: fixed;
+    top: 20px;
+    left: 30px;
+}
+
+
+span {
+	color: #77CB9D;
+}
+
+/*******************************
+*** GUITARS BACKGROUD
+********************************/
+
+.Guitars{
+    position: fixed;
+    left: 230px;
+    top: 190px;
+    filter: grayscale(10%);
+}
+
+.lines{
+    position: fixed;
+    left: 265px;
+    top: 319px;
+    
+}
+
+/*******************************
+*** STANDARD TUNING 
+********************************/
+.standard {
+    position: absolute;
+    top: 205px;
+    left: 206px;
+}
+
+#oneOval-E:hover,#twoOVAL-A:hover,#threeOVAL-D:hover,#fourOVAL-G:hover,#fiveOVAL-B:hover,#sixOVAL-E:hover{
+    fill:#4DCE86;
+    cursor:pointer;
+}
+
+
+
+
+.standard-tuning{
+    position: fixed;
+    top: 205px;
+    left: 206px;
+}
+
+path, polygon{
+    pointer-events:none;
+}
+
+
+
+/*******************************
+*** DROP D TUNING 
+********************************/
+
+.dropD{
+    position: fixed;
+    top: 205px;
+    left: 566px;
+}
+
+#onedropd-D:hover,#twodropd-A:hover,#threedropd-D:hover,#fourdropd-G:hover,#fivedropd-B:hover,#sixdropd-E:hover{
+  fill:#4DCE86; 
+  cursor:pointer;
+}
+
+/*******************************
+*** OPEN C TUNING
+********************************/
+.openC{
+    position: fixed;
+    top: 555px;
+    left: 207px;
+}
+
+#oneopen-C:hover,#twoopen-G:hover,#threeopen-C:hover,#fouropen-G:hover,#fiveopen-C:hover,#sixopen-E:hover{
+    fill:#4DCE86; 
+  cursor:pointer;
+}
+/*******************************
+*** OPEN D TUNING
+********************************/
+
+.openD{
+    position: fixed;
+    top: 555px;
+    left: 566px;
+}
+
+
+
+#oneopen-D:hover,#twoopen-D:hover,#threeopen-D:hover,#fouropen-D:hover,#fiveopen-D:hover,#sixopen-D:hover{
+    fill:#4DCE86;
+    cursor:pointer;
+}
+
+/*******************************
+*** HALF STEP DOWN
+********************************/
+.halfstep{
+    position: fixed;
+    top: 555px;
+    left: 927px;
+}
+
+
+#onehalf-E:hover,#twohalf-A:hover,#threehalf-D:hover,#fourhalf-G:hover,#fivehalf-B:hover,#sixhalf-E:hover{
+  fill:#4DCE86; 
+  cursor:pointer;
+}
+
+/*******************************
+*** Open G Tuning
+********************************/
+
+.openG{
+    position: fixed;
+    top: 205px;
+    left: 928px;
+}
+
+#oneopen-G:hover,#twoopen-G:hover,#threeopen-G:hover,#fiveopen-G:hover,#sixopen-G:hover{
+  fill:#4DCE86; 
+  cursor:pointer; 
+}
+
+
+
+/*******************************
+*** Standard Tuning Title
+********************************/
+
+.standard-tuning-header{
+    position: fixed;
+    top: 150px;
+    left: 222px;
+    font-size: 0.9em;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+    color: #E5DFC5;
+    letter-spacing: 1px;
+    text-transform: uppercase
+}
+
+/*******************************
+*** Drop D Tuning Title
+********************************/
+
+.dropd-tuning-header{
+    position: fixed;
+    top: 150px;
+    left: 594px;
+    font-size: 0.9em;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+    color: #E5DFC5;
+    letter-spacing: 1px;
+    text-transform: uppercase  
+    
+}
+
+
+/*******************************
+*** Drop G Tuning Title
+********************************/
+
+.openg-tuning-header{
+    position: fixed;
+    top: 150px;
+    left: 955px;
+    font-size: 0.9em;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+    color: #E5DFC5;
+    letter-spacing: 1px;
+    text-transform: uppercase   
+}
+
+/*******************************
+*** OPEN C Tuning Title
+********************************/
+
+.openc-tuning-header{
+    position: fixed;
+    top: 500px;
+    left: 235px;
+    font-size: 0.9em;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+    color: #E5DFC5;
+    letter-spacing: 1px;
+    text-transform: uppercase 
+}
+
+/*******************************
+*** Open D Tuning Title
+********************************/
+
+.opend-tuning-header{
+    position: fixed;
+    top: 500px;
+    left: 594px;
+    font-size: 0.9em;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+    color: #E5DFC5;
+    letter-spacing: 1px;
+    text-transform: uppercase 
+}
+/*******************************
+*** Half Step Down Tuning Title
+********************************/
+
+.halfstep-tuning-header{
+    position: fixed;
+    top: 500px;
+    left: 950px;
+    font-size: 0.9em;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+    color: #E5DFC5;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+}
+
+
+
