@@ -1,1 +1,1 @@
-# Michael
+# Guitar Tuner App
